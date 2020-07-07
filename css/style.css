@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* search box-sizing w3 */
+}
+
+
+#logo{
+   
+    background: greenyellow;
+    border: solid 3px red;
+    float: left;
+    width: 30%;
+    top: 0;
+
+}
+#banner{
+
+    background: gold;
+    border: solid 3px gray  ;
+    width: 70%;
+    float: right;
+    right: 0;
+}
+#head-link{
+    clear: both;
+    background-color: coral;
+    border: solid 3px greenyellow;
+
+    /* padding: 30px;
+    height: 100px; */
+    /* align-content: space-between; */
+    padding: 20px;
+   
+}
+#head-link a{
+    
+    margin: 20px;
+
+}
+
+#head-link div{
+    float: right;
+}
