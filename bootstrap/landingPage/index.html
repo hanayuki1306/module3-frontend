@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+    <header>
+        <!-- <div> This is logo</div>
+        <div>
+            <a>This is href</a>
+        </div> -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="dropdown" style="float: left;">
+                <button class="btn btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Computers
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">New Surface Go 2</a>
+                    <a class="dropdown-item" href="#">Surface Laptop 3</a>
+                    <a class="dropdown-item" href="#">Surface pro X</a>
+                    <a class="dropdown-item" href="#">Surface Neo</a>
+                    <a class="dropdown-item" href="#">Surface studio 2</a>
+                </div>
+            </div>
+
+            <div class="dropdown" style="float: left;">
+                <button class="btn btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Accessories
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">New Surface Headphone 2</a>
+                    <a class="dropdown-item" href="#">New Surface Pro 3</a>
+                    <a class="dropdown-item" href="#">New Surface pro Accessories</a>
+                    <a class="dropdown-item" href="#">New Surface Neo</a>
+                    <a class="dropdown-item" href="#">All Surface Accessories</a>
+                </div>
+            </div>
+            <!-- <div class="dropdown" style="float: right;">
+                    <a href="#" class="badge badge-light">For business</a>
+                </div> -->
+            <div style="float: left;">
+                <a id="c-shellmenu_90" class="c-uhf-nav-link" href="https://www.microsoft.com/en-us/surface/business"
+                    data-m="{&quot;cN&quot;:&quot;CatNav_ForBusiness_nav&quot;,&quot;id&quot;:&quot;n6c8c3c1m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c8c3c1m1r1a1&quot;}"
+                    target="_self">For business</a>
+            </div>
+
+
+            <div class="dropdown" style="float: left;">
+                <button class="btn btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Shop now
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Hot deal</a>
+                    <a class="dropdown-item" href="#">Buy new Now</a>
+                    <a class="dropdown-item" href="#">Where to buy</a>
+                    <a class="dropdown-item" href="#">All surface devices</a>
+                    <a class="dropdown-item" href="#">Want to buy ?</a>
+                </div>
+            </div>
+
+            <div style="float: left;">
+                <a id="c-shellmenu_90" class="c-uhf-nav-link"
+                    href="https://support.microsoft.com/vi-vn/products/surface-devices"
+                    data-m="{&quot;cN&quot;:&quot;CatNav_ForBusiness_nav&quot;,&quot;id&quot;:&quot;n6c8c3c1m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c8c3c1m1r1a1&quot;}"
+                    target="_self">Support</a>
+            </div>
+
+
+        </nav>
+    </header>
+
+
+    <div>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100"
+                        src="https://www.itl.cat/pngfile/big/314-3148362_kimetsu-yaiba-hi-th-sm.jpg" alt="First slide"
+                        style="width: 80%;height: 50%;">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100"
+                        src="https://image.lag.vn/upload/news/19/11/04/kochoushinobukimetsunoyaibadrawnbyeburideihitomigokuub61d8a9e7dc0864d371e7b48defefada-15694900850231746923245_LZEW.png"
+                        alt="Second slide" style="width: 900px; height: 900px;">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://www.itl.cat/pngfile/big/241-2417792_kimetsu-no-yaiba.jpg"
+                        alt="Third slide" style="width: 40%; height: 80%;">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+
+    <br>
+
+    <div class="container">
+        <div data-grid="col-12" class="m-link-navigation" data-bi-id="c1m2r1a3" data-bi-name="c1m2r1a3">
+            <nav class="c-link-navigation x-hidden-focus">
+                <div style="float: left;">
+                    <picture><img
+                            src="https://c.s-microsoft.com/en-us/CMSImages/SurfaceHome_Lg_LinkNav_Panel_2_image1.svg?version=9257ec5f-8430-88a9-e2cd-c455f7ce172c"
+                            class="mscom-image" alt="" width="100px" height="100px"></picture><a
+                        class="mscom-link c-hyperlink c-glyph" aria-label="Compare Surface devices"
+                        href="https://www.microsoft.com/en-us/surface/devices/compare-devices" data-bi-id="n1c1m2r1a3"
+                        data-bi-name="compare devices" data-bi-type="text" data-bi-bhvr="OTHER" target="_self">COMPARE
+                        DEVICES</a>
+                </div>
+                <div style="float: left;">
+                    <picture><img
+                            src="https://c.s-microsoft.com/en-us/CMSImages/SurfaceHome_Lg_LinkNav_Panel_2_image2.svg?version=da456df5-7733-1a20-6668-991b453cd479"
+                            class="mscom-image" alt="" width="100px" height="100px"></picture><a
+                        class="mscom-link c-hyperlink c-glyph"
+                        aria-label="Answer a few questions and in less than 2 minutes we’ll help you choose a new Surface"
+                        href="https://www.microsoft.com/en-us/surface/devices/help-me-choose" data-bi-id="n2c1m2r1a3"
+                        data-bi-name="help me choose" data-bi-type="text" data-bi-bhvr="OTHER" target="_self">HELP ME
+                        CHOOSE</a>
+                </div>
+                <div style="float: left;">
+                    <picture><img
+                            src="https://c.s-microsoft.com/en-us/CMSImages/SurfaceHome_Lg_LinkNav_Panel_2_image4.svg?version=f06b4b40-4b8b-535a-1bdc-60d370824ced"
+                            class="mscom-image" alt="" width="100px" height="100px"></picture><a target="_self"
+                        class="mscom-link c-hyperlink c-glyph" aria-label="Get Deals"
+                        href="https://www.microsoft.com/en-us/store/b/surface-deals" data-bi-id="n3c1m2r1a3"
+                        data-bi-name="deals" data-bi-bhvr="PARTNERREFERRAL" data-bi-type="text" data-bi-prtnm="ms store"
+                        data-bi-prod="surface deals">DEALS</a>
+                </div>
+                <div style="float: left;">
+                    <picture><img
+                            src="https://c.s-microsoft.com/en-us/CMSImages/SurfaceHome_Lg_LinkNav_Panel_2_image3_new.svg?version=c80bda39-bfe6-c173-b664-5babf3df5ef8"
+                            class="mscom-image" alt="" width="100px" height="100px"></picture><a target="_self"
+                        class="mscom-link c-hyperlink c-glyph" aria-label="Shop Surface accessories"
+                        href="https://www.microsoft.com/en-us/store/b/surfaceaccessories" data-bi-id="n4c1m2r1a3"
+                        data-bi-name="accessories" data-bi-bhvr="PARTNERREFERRAL" data-bi-type="text"
+                        data-bi-prtnm="ms store" data-bi-prod="surfaceaccessories">ACCESSORIES</a>
+                </div>
+            </nav>
+        </div>
+
+    </div>
+    <br>
+    <div style="clear: both;margin-left: 25%; margin-right: 25%;">
+        <h1 class="text-center">Working remotely with Surface</h1>
+        <h4 class="text-center">From home office to kitchen table to living room couch, Surface delivers the power to
+            get it done, hi-res touchscreens and Dolby® Audio™ for music and shows, HD cameras to stay in touch, and the
+            Windows you know.</h4>
+        <a class="text-center" href="#">See how</a>
+    </div>
+    <!-- 
+   <div class="responsive">
+            <div style="float: left;">
+                <picture>
+                    <img src="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Hero_20_mosaic_block1-image-3_V1_en-us.jpg?version=3b024fb4-9915-ef5e-b48b-793fa708d6e1">
+                </picture>
+            </div>
+
+            <div style="float: left;background: darkgray; width: 400px; height: 400px;">
+                <div> <h2>New Surface</h2></div>
+            </div>
+                
+        
+            <div style="float: left; margin-left: 2px; width: 400%;height: 400px;">
+                <picture>
+                    <img src="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Hero_20_mosaic_block1-image-2_1707_en-us.jpg?version=807cfc2e-8253-3dc0-828c-fb9359fbef6a">
+                </picture>
+            </div>
+   </div> -->
+
+    <div data-grid="col-12" class="hp-mosaic hp-mosaic_en-us wdg-pad-thin x-hidden-focus" data-bi-id="c1m5r1a3"
+        data-bi-name="c1m5r1a3">
+        <section data-grid="col-12" data-bi-area="body">
+            <ul>
+                <li class="msctL single msctRSingleD1" data-mosaic="false" id="Image_mosaic_Panel_1" tabindex="-1"
+                    data-bi-name="Image_mosaic_Panel_1" data-bi-id="c1c1m5r1a3">
+                    <div>
+                        <section class="m-image-intro f-transparent f-align-bottom theme-dark" data-bi-area="body"><a
+                                href="https://www.microsoft.com/en-us/p/surface-go-2/8pt3s2vjmdr6" tabindex="-1"
+                                data-bi-id="n1c1c1m5r1a3" data-bi-name="surface go 2" data-bi-bhvr="PARTNERREFERRAL"
+                                data-bi-type="image" data-bi-prtnm="ms store" data-bi-prodid="8pt3s2vjmdr6"
+                                data-bi-prod="surface go 2" target="_self">
+                                <picture class="c-image">
+                                    <source
+                                        srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Hero_20_mosaic_block1-image-3_V1_en-us.jpg?version=3b024fb4-9915-ef5e-b48b-793fa708d6e1"
+                                        media="(min-width:1400px)">
+                                    <source
+                                        srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Hero_20_mosaic_block1-image-3_V2_en-us.jpg?version=c2c61936-dcbf-8a64-36c4-dbab2dd18695"
+                                        media="(min-width:1084px)">
+                                    <source
+                                        srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Hero_20_mosaic_block1-image-3_V2_en-us.jpg?version=c2c61936-dcbf-8a64-36c4-dbab2dd18695"
+                                        media="(min-width:540px)">
+                                    <source
+                                        srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Hero_20_mosaic_block1-image-3_V3_en-us.jpg?version=26d34b57-9fad-21d8-d588-c82b0ebc0a05"
+                                        media="(min-width:0px)"><img
+                                        src="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Hero_20_mosaic_block1-image-3_V1_en-us.jpg?version=3b024fb4-9915-ef5e-b48b-793fa708d6e1"
+                                        class="mscom-image" alt="Surface Go 2" width="" height=""
+                                        style="height: 749px;"></picture>
+                            </a>
+                            <div class="x-type-left"><strong class="c-badge f-small f-highlight">NEW</strong>
+                                <h2 class="c-heading-2">Surface Go 2</h2>
+                                <div class="c-subheading-2">Smallest, lightest Surface with 10.5” touchscreen<sup><a
+                                            aria-label="Footnote *" href="#*" name="*superscript"
+                                            class="c-hyperlink supBLink"><span class="supText">*</span></a></sup></div>
+                                <a target="_self" class="mscom-link c-call-to-action  c-glyph surface-secondary-cta"
+                                    aria-label="Meet Surface Go 2"
+                                    href="https://www.microsoft.com/en-us/p/surface-go-2/8pt3s2vjmdr6"
+                                    data-bi-id="n2c1c1m5r1a3" data-bi-name="meet surface go 2"
+                                    data-bi-bhvr="PARTNERREFERRAL" data-bi-type="text" data-bi-prtnm="ms store"
+                                    data-bi-prodid="8pt3s2vjmdr6" data-bi-prod="surface go 2"><span>Meet Surface Go
+                                        2</span></a>
+                            </div>
+                        </section>
+                    </div>
+                </li>
+                <li class="msctR double msctRDoubleDAR" data-mosaic="false" data-bi-id="c2c1m5r1a3"
+                    data-bi-name="c2c1m5r1a3"><a
+                        href="https://www.microsoft.com/en-us/p/surface-headphones-2/8wq0bsx7g523" tabindex="-1"
+                        data-bi-id="n1c2c1m5r1a3" data-bi-name="a man is holding surface headphones 2"
+                        data-bi-bhvr="PARTNERREFERRAL" data-bi-type="image" data-bi-prtnm="ms store"
+                        data-bi-prodid="8wq0bsx7g523" data-bi-prod="surface headphones 2" target="_self">
+                        <div class="zoom zoomImg" id="zoomImg1">
+                            <picture class="c-image">
+                                <source
+                                    srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Hero_20_mosaic_block1-image-2_1903_en-us.jpg?version=4a0293f7-c351-88ec-b21f-541c1643eda7"
+                                    media="(min-width:1903px)">
+                                <source
+                                    srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Hero_20_mosaic_block1-image-2_1707_en-us.jpg?version=807cfc2e-8253-3dc0-828c-fb9359fbef6a"
+                                    media="(min-width:1707px)">
+                                <source
+                                    srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Hero_20_mosaic_block1-image-2_1200_en-us.jpg?version=ce42bdb8-b0ba-41da-2545-9572c3e5f00f"
+                                    media="(min-width:1200px)">
+                                <source
+                                    srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Hero_20_mosaic_block1-image-2_1084_en-us.jpg?version=005bd8c9-d171-fead-5448-d5fd918d2e8d"
+                                    media="(min-width:1084px)">
+                                <source
+                                    srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Hero_20_mosaic_block1-image-2_V4_en-us.jpg?version=b9291182-2c1f-b249-e779-c49d428aee9a"
+                                    media="(min-width:540px)">
+                                <source
+                                    srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Hero_20_mosaic_block1-image-2_V4_en-us.jpg?version=b9291182-2c1f-b249-e779-c49d428aee9a"
+                                    media="(min-width:0px)"><img
+                                    src="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Hero_20_mosaic_block1-image-2_1707_en-us.jpg?version=807cfc2e-8253-3dc0-828c-fb9359fbef6a"
+                                    class="mscom-image" alt="A man is holding Surface Headphones 2 " width="" height="">
+                            </picture>
+                        </div>
+                    </a>
+                    <div class="">
+                        <section class="m-content-placement-item"
+                            data-js-href="https://www.microsoft.com/en-us/p/surface-headphones-2/8wq0bsx7g523"
+                            data-bi-area="body">
+                            <div><strong class="c-badge f-small f-highlight">NEW</strong>
+                                <h2 class="c-heading-2"> Surface Headphones&nbsp;2</h2>
+                                <div class="c-subheading-2">
+                                    <p> Spectacular sound, comfort and active noise cancellation</p>
+                                </div><a target="_self"
+                                    class="mscom-link c-call-to-action c-glyph surface-secondary-cta "
+                                    aria-label="See Surface Headphones 2"
+                                    href="https://www.microsoft.com/en-us/p/surface-headphones-2/8wq0bsx7g523"
+                                    data-bi-id="n2c2c1m5r1a3" data-bi-name="experience surface headphones 2"
+                                    data-bi-bhvr="PARTNERREFERRAL" data-bi-type="text" data-bi-prtnm="ms store"
+                                    data-bi-prodid="8wq0bsx7g523" data-bi-prod="surface headphones 2"><span>Experience
+                                        Surface Headphones 2</span></a>
+                            </div>
+                        </section>
+                    </div>
+                </li>
+                <li class="msctR single slide" data-mosaic="false" style="opacity: 1; visibility: visible; top: 0px;"
+                    data-bi-id="c3c1m5r1a3" data-bi-name="c3c1m5r1a3">
+                    <div>
+                        <section class="m-image-intro f-transparent f-align-bottom theme-dark" data-bi-area="body"><a
+                                href="https://www.microsoft.com/en-us/p/surface-laptop-3/8vfggh1r94tm" tabindex="-1"
+                                data-bi-id="n1c3c1m5r1a3" data-bi-name="surface laptop 3 in 13.5” and 15”"
+                                data-bi-bhvr="PARTNERREFERRAL" data-bi-type="image" data-bi-prtnm="ms store"
+                                data-bi-prodid="8vfggh1r94tm" data-bi-prod="surface laptop 3" target="_self">
+                                <picture class="c-image">
+                                    <source
+                                        srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Mosaic_Block1_image4_20_V1_en-us.jpg?version=b9de519a-16b4-8b28-6acf-114f82f87e02"
+                                        media="(min-width:1400px)">
+                                    <source
+                                        srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Mosaic_Block1_image4_20_V2_en-us.jpg?version=c41f956c-8973-7d59-fc36-619543c9231a"
+                                        media="(min-width:1084px)">
+                                    <source
+                                        srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Mosaic_Block1_image4_20_V2_en-us.jpg?version=c41f956c-8973-7d59-fc36-619543c9231a"
+                                        media="(min-width:540px)">
+                                    <source
+                                        srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Mosaic_Block1_image4_20_V3_en-us.jpg?version=c8f48f1e-7d1a-acf6-19c6-49d85694efff"
+                                        media="(min-width:0px)"><img
+                                        src="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Mosaic_Block1_image4_20_V1_en-us.jpg?version=b9de519a-16b4-8b28-6acf-114f82f87e02"
+                                        class="mscom-image" alt="Surface Laptop 3 in 13.5” and 15”" width="" height=""
+                                        style="height: 749px;"></picture>
+                            </a>
+                            <div class="x-type-left "><strong class="c-badge f-small f-highlight"></strong>
+                                <h2 class="c-heading-2">Surface Laptop 3</h2>
+                                <div class="c-subheading-2">
+                                    <p>Slim and stylish, 13.5” or 15” touchscreen</p>
+                                </div><a target="_self"
+                                    class="mscom-link c-call-to-action c-glyph surface-secondary-cta"
+                                    aria-label="Explore Surface Laptop 3"
+                                    href="https://www.microsoft.com/en-us/p/surface-laptop-3/8vfggh1r94tm"
+                                    data-bi-id="n2c3c1m5r1a3" data-bi-name="explore surface laptop 3"
+                                    data-bi-bhvr="PARTNERREFERRAL" data-bi-type="text" data-bi-prtnm="ms store"
+                                    data-bi-prodid="8vfggh1r94tm" data-bi-prod="surface laptop 3"><span>EXPLORE Surface
+                                        Laptop 3</span></a>
+                            </div>
+                        </section>
+                    </div>
+                </li>
+                <li class="msctL single slide" data-mosaic="false" style="opacity: 1; visibility: visible; top: 0px;"
+                    data-bi-id="c4c1m5r1a3" data-bi-name="c4c1m5r1a3">
+                    <div>
+                        <section class="m-image-intro f-transparent f-align-bottom theme-dark" data-bi-area="body"><a
+                                href="https://www.microsoft.com/en-us/p/surface-pro-7/8n17j0m5zzqs" tabindex="-1"
+                                aria-label="" data-bi-id="n1c4c1m5r1a3"
+                                data-bi-name="surface pro 7 with a poppy red type cover next to a matte black surface pro 7"
+                                data-bi-bhvr="PARTNERREFERRAL" data-bi-type="image" data-bi-prtnm="ms store"
+                                data-bi-prodid="8n17j0m5zzqs" data-bi-prod="surface pro 7" target="_self">
+                                <picture class="c-image">
+                                    <source
+                                        srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Mosaic_Block1_image3_20_V1_en-us.png?version=86bd7106-399f-0ab7-4a0e-c0c309bef395"
+                                        media="(min-width:1400px)">
+                                    <source
+                                        srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Mosaic_Block1_image3_20_V2_en-us.png?version=a401d6f7-0202-3cb7-d191-9a9022d6e2af"
+                                        media="(min-width:1084px)">
+                                    <source
+                                        srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Mosaic_Block1_image3_20_V2_en-us.png?version=a401d6f7-0202-3cb7-d191-9a9022d6e2af"
+                                        media="(min-width:540px)">
+                                    <source
+                                        srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Mosaic_Block1_image3_20_V3_en-us.png?version=58a48b31-ae53-26e2-b913-1703c83eb81c"
+                                        media="(min-width:0px)"><img
+                                        src="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Mosaic_Block1_image3_20_V1_en-us.png?version=86bd7106-399f-0ab7-4a0e-c0c309bef395"
+                                        class="mscom-image"
+                                        alt="Surface Pro 7 with a Poppy Red Type Cover next to a Matte Black Surface Pro 7"
+                                        width="" height="" style="height: 749px;"></picture>
+                            </a>
+                            <div class="x-type-left"><strong class="c-badge f-small f-highlight"></strong>
+                                <h2 class="c-heading-2">Surface Pro 7</h2>
+                                <div class="c-subheading-2">12.3” touchscreen with tablet-to-laptop versatility<sup><a
+                                            aria-label="Footnote *" href="#*" name="*superscript"
+                                            class="c-hyperlink supBLink"><span class="supText">*</span></a></sup></div>
+                                <a target="_self" class="mscom-link c-call-to-action  c-glyph surface-secondary-cta"
+                                    aria-label="Meet Surface Pro 7"
+                                    href="https://www.microsoft.com/en-us/p/surface-pro-7/8n17j0m5zzqs"
+                                    data-bi-id="n2c4c1m5r1a3" data-bi-name="meet surface pro 7"
+                                    data-bi-bhvr="PARTNERREFERRAL" data-bi-type="text" data-bi-prtnm="ms store"
+                                    data-bi-prodid="8n17j0m5zzqs" data-bi-prod="surface pro 7"><span>MEET Surface Pro
+                                        7</span></a>
+                            </div>
+                        </section>
+                    </div>
+                </li>
+                <li class="msctR double slide" data-mosaic="false" style="opacity: 1; visibility: visible; top: 0px;"
+                    data-bi-id="c5c1m5r1a3" data-bi-name="c5c1m5r1a3"><a
+                        href="https://www.microsoft.com/en-us/p/surface-earbuds/8r9cpq146064" tabindex="-1"
+                        data-bi-id="n1c5c1m5r1a3" data-bi-name="surface earbuds coming out of their charging case"
+                        data-bi-bhvr="PARTNERREFERRAL" data-bi-type="image" data-bi-prtnm="ms store"
+                        data-bi-prodid="8r9cpq146064" data-bi-prod="surface earbuds" target="_self">
+                        <div class="zoom zoomImg" id="zoomImg2">
+                            <picture class="c-image">
+                                <source
+                                    srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Mosaic_Block1_image2_20_V1_en-us.jpg?version=b33c9ed5-7bc8-8411-17da-4fb499ee62db"
+                                    media="(min-width:1903px)">
+                                <source
+                                    srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Mosaic_Block1_image2_20_en-us_1707.png?version=32f72ae1-7278-af38-5bb0-8b9ae7c3c909"
+                                    media="(min-width:1707px)">
+                                <source
+                                    srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Mosaic_Block1_image2_20_en-us_1200.png?version=a756c625-0d9d-6c69-d54e-b67a51c0f62e"
+                                    media="(min-width:1200px)">
+                                <source
+                                    srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Mosaic_Block1_image2_20_en-us_1084.png?version=edc0539a-5ea0-6bab-a251-0bed38f40c83"
+                                    media="(min-width:1084px)">
+                                <source
+                                    srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Mosaic_Block1_image2_20_V3_en-us.jpg?version=83c93f47-5b39-f5e9-cb9c-3a7df7497108"
+                                    media="(min-width:540px)">
+                                <source
+                                    srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Mosaic_Block1_image2_20_V3_en-us.jpg?version=83c93f47-5b39-f5e9-cb9c-3a7df7497108"
+                                    media="(min-width:0px)"><img
+                                    src="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Mosaic_Block1_image2_20_en-us_1707.png?version=32f72ae1-7278-af38-5bb0-8b9ae7c3c909"
+                                    class="mscom-image" alt="Surface Earbuds coming out of their charging case" width=""
+                                    height=""></picture>
+                        </div>
+                    </a>
+                    <div class="">
+                        <section data-js-href="https://www.microsoft.com/en-us/surface" class="m-content-placement-item"
+                            data-bi-area="body">
+                            <div><strong class="c-badge f-small f-highlight">NEW</strong>
+                                <h2 class="c-heading-2">Surface Earbuds</h2>
+                                <div class="c-subheading-2">
+                                    <p>Premium sound, fit and screen-free control</p>
+                                </div><a href="" class="mscom-link c-call-to-action c-glyph surface-bg-cta-blue"
+                                    productbuyxmlid="" aria-label="" role="button" target="_blank"
+                                    style="display: none;" data-bi-id="n2c5c1m5r1a3"
+                                    data-bi-name="buy now"><span></span></a><a target="_self"
+                                    class="mscom-link c-call-to-action c-glyph surface-secondary-cta "
+                                    aria-label="Experience Surface Earbuds"
+                                    href="https://www.microsoft.com/en-us/p/surface-earbuds/8r9cpq146064"
+                                    data-bi-id="n3c5c1m5r1a3" data-bi-name="experience surface earbuds"
+                                    data-bi-bhvr="PARTNERREFERRAL" data-bi-type="text" data-bi-prtnm="ms store"
+                                    data-bi-prodid="8r9cpq146064" data-bi-prod="surface earbuds"><span>EXPERIENCE
+                                        Surface Earbuds</span></a>
+                            </div>
+                        </section>
+                    </div>
+                </li>
+                <li class="fullTile slide fullLeftRight" data-grid="col-12" data-mosaic="false"
+                    style="opacity: 1; visibility: visible; top: 0px;" data-bi-id="c6c1m5r1a3"
+                    data-bi-name="c6c1m5r1a3">
+                    <div>
+                        <picture class="c-image mobImg">
+                            <source
+                                srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Hero_20_mosaic_block1-image-1_V1_en-us.jpg?version=7189692e-c78a-178b-7cd6-5191037e0a7a"
+                                media="(min-width:1400px)">
+                            <source
+                                srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Hero_20_mosaic_block1-image-1_V12_en-us.jpg?version=c380c4d3-7b97-45ba-4216-fda71cfabdc0"
+                                media="(min-width:1084px)">
+                            <source
+                                srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Hero_20_mosaic_block1-image-1_V2_en-us.jpg?version=d25d250d-4649-5c69-8ebf-e02b88d6b879"
+                                media="(min-width:540px)">
+                            <source
+                                srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Hero_20_mosaic_block1-image-1_V3_en-us.jpg?version=c053d8c9-c4c7-9a79-f2d0-35e8a61ccd1e"
+                                media="(min-width:0px)"><img
+                                src="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Hero_20_mosaic_block1-image-1_V1_en-us.jpg?version=7189692e-c78a-178b-7cd6-5191037e0a7a"
+                                class="mscom-image" alt="Surface Book 3" width="" height=""></picture>
+                        <section id="fullTile-2" data-grid="col-12 stack-3" data-bi-name="fullTile-2"
+                            data-bi-id="c1c6c1m5r1a3" data-bi-area="body">
+                            <div class="copy"><strong class="c-badge f-small f-highlight">NEW</strong>
+                                <h2 class="c-heading-2">Surface Book 3</h2>
+                                <div class="c-subheading-2">Our most powerful 13.5” or 15” touchscreen laptop</div>
+                                <div><a target="_self"
+                                        class="mscom-link c-call-to-action c-glyph surface-secondary-cta "
+                                        aria-label="Learn about Surface Book 3"
+                                        href="https://www.microsoft.com/en-us/p/surface-book-3/8xbw9g3z71f1"
+                                        data-bi-id="n1c1c6c1m5r1a3" data-bi-name="learn about surface book 3"
+                                        data-bi-bhvr="PARTNERREFERRAL" data-bi-type="text" data-bi-prtnm="ms store"
+                                        data-bi-prodid="8xbw9g3z71f1" data-bi-prod="surface book 3"><span>Learn about
+                                            Surface Book 3</span></a></div>
+                            </div>
+                        </section>
+                    </div>
+                </li>
+                <li class="msctL single slide surface-lg-center" data-mosaic="false"
+                    style="opacity: 1; visibility: visible; top: 0px;" data-bi-id="c7c1m5r1a3"
+                    data-bi-name="c7c1m5r1a3">
+                    <div>
+                        <section class="m-image-intro f-transparent f-align-bottom theme-dark" data-bi-area="body"><a
+                                href="https://www.microsoft.com/en-us/p/surface-studio-2/8sbjxm0m58t4" tabindex="-1"
+                                data-bi-id="n1c7c1m5r1a3"
+                                data-bi-name="surface studio 2 with accessories in both studio and upright modes"
+                                data-bi-bhvr="PARTNERREFERRAL" data-bi-type="image" data-bi-prtnm="ms store"
+                                data-bi-prodid="8sbjxm0m58t4" data-bi-prod="surface studio 2" target="_self">
+                                <picture class="c-image">
+                                    <source
+                                        srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Mosaic_Block2_image1_20_V1_en-us.jpg?version=5d2079fa-198f-9f71-f8a3-3b9a09f3b440"
+                                        media="(min-width:1400px)">
+                                    <source
+                                        srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Mosaic_Block2_image1_20_V2_en-us.jpg?version=ecb654d1-5c60-0e5c-0e39-0c0bcbdb0dfd"
+                                        media="(min-width:1084px)">
+                                    <source
+                                        srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Mosaic_Block2_image1_20_V21_en-us.jpg?version=692244cb-4449-d079-c40f-21728f5f36ad"
+                                        media="(min-width:540px)">
+                                    <source
+                                        srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Mosaic_Block2_image1_20_V3_en-us.jpg?version=7ad9ef2c-ce8c-4b33-0b30-b736af26a941"
+                                        media="(min-width:0px)"><img
+                                        src="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Mosaic_Block2_image1_20_V1_en-us.jpg?version=5d2079fa-198f-9f71-f8a3-3b9a09f3b440"
+                                        class="mscom-image"
+                                        alt="Surface Studio 2 with accessories in both studio and upright modes"
+                                        width="" height="" style="height: 749px;"></picture>
+                            </a>
+                            <div class="x-type-left"><strong class="c-badge f-small f-highlight"></strong>
+                                <h2 class="c-heading-2">Surface&nbsp;Studio&nbsp;2</h2>
+                                <div class="c-subheading-2">Brilliant color, blazing graphics, and 28”
+                                    touchscreen<sup><a aria-label="Footnote *" href="#*" name="*superscript"
+                                            class="c-hyperlink supBLink"><span class="supText">*</span></a></sup></div>
+                                <a target="_self" class="mscom-link c-call-to-action c-glyph surface-secondary-cta"
+                                    aria-label="See Surface Studio 2"
+                                    href="https://www.microsoft.com/en-us/p/surface-studio-2/8sbjxm0m58t4"
+                                    data-bi-id="n2c7c1m5r1a3" data-bi-name="see surface studio 2"
+                                    data-bi-bhvr="PARTNERREFERRAL" data-bi-type="text" data-bi-prtnm="ms store"
+                                    data-bi-prodid="8sbjxm0m58t4" data-bi-prod="surface studio 2"><span>See Surface
+                                        Studio 2</span></a>
+                            </div>
+                        </section>
+                    </div>
+                </li>
+                <li class="msctR single slide" data-mosaic="false" style="opacity: 1; visibility: visible; top: 0px;"
+                    data-bi-id="c8c1m5r1a3" data-bi-name="c8c1m5r1a3">
+                    <div>
+                        <section class="m-image-intro f-transparent f-align-bottom theme-dark" data-bi-area="body"><a
+                                href="https://www.microsoft.com/en-us/p/surface-pro-x/8vdnrp2m6hhc" tabindex="-1"
+                                data-bi-id="n1c8c1m5r1a3"
+                                data-bi-name="a hand writes with surface slim pen on surface pro x"
+                                data-bi-bhvr="PARTNERREFERRAL" data-bi-type="image" data-bi-prtnm="ms store"
+                                data-bi-prodid="8vdnrp2m6hhc" data-bi-prod="surface pro x" target="_self">
+                                <picture class="c-image">
+                                    <source
+                                        srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Mosaic_Block1_image1_20_V1_en-us.png?version=1d003b1e-8cbd-a575-1bf9-0af43e6bbe31"
+                                        media="(min-width:1400px)">
+                                    <source
+                                        srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Mosaic_Block1_image1_20_V2_en-us.png?version=b6d2c14f-de68-135b-0fe4-e1cd97f96f91"
+                                        media="(min-width:1084px)">
+                                    <source
+                                        srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Mosaic_Block1_image1_20_V2_en-us.png?version=b6d2c14f-de68-135b-0fe4-e1cd97f96f91"
+                                        media="(min-width:540px)">
+                                    <source
+                                        srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Mosaic_Block1_image1_20_V3_en-us.png?version=d9b2448a-7293-06b2-e1cb-7e6c82a09e22"
+                                        media="(min-width:0px)"><img
+                                        src="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Mosaic_Block1_image1_20_V1_en-us.png?version=1d003b1e-8cbd-a575-1bf9-0af43e6bbe31"
+                                        class="mscom-image" alt="A hand writes with Surface Slim Pen on Surface Pro X"
+                                        width="" height="" style="height: 749px;"></picture>
+                            </a>
+                            <div class="x-type-left"><strong class="c-badge f-small f-highlight"></strong>
+                                <h2 class="c-heading-2">Surface Pro X </h2>
+                                <div class="c-subheading-2">Edge to edge 2-in-1 laptop with LTE and 13”
+                                    touchscreen<sup><a aria-label="Footnote *" href="#*" name="*superscript"
+                                            class="c-hyperlink supBLink"><span class="supText">*</span></a></sup></div>
+                                <a target="_self" class="mscom-link c-call-to-action c-glyph surface-secondary-cta"
+                                    aria-label="Discover Surface Pro X"
+                                    href="https://www.microsoft.com/en-us/p/surface-pro-x/8vdnrp2m6hhc"
+                                    data-bi-id="n2c8c1m5r1a3" data-bi-name="discover surface pro x"
+                                    data-bi-bhvr="PARTNERREFERRAL" data-bi-type="text" data-bi-prtnm="ms store"
+                                    data-bi-prodid="8vdnrp2m6hhc" data-bi-prod="surface pro x"><span>Discover Surface
+                                        Pro X</span></a>
+                            </div>
+                        </section>
+                    </div>
+                </li>
+                <!--<li class="msctR double track slide" data-mosaic="false" style="opacity: 1; visibility: visible; top: 0px;">
+
+                <a href="https://www.microsoft.com/en-us/store/b/surfaceaccessories" tabindex="-1" >
+                    <div class="zoom zoomImg" id="zoomImg7">
+                        <picture class="c-image">
+                              <mscom:image usedatasource="true" htmlcustomattributes="{'media':'(min-width:1903px)'}" md:payloadguid="e2d23104-c0e6-479f-a685-43a532813809" xmlns:mscom="http://schemas.microsoft.com/CMSvNext" xmlns:md="http://schemas.microsoft.com/mscom-data"></mscom:image>
+<mscom:image usedatasource="true" htmlcustomattributes="{'media':'(min-width:1707px)'}" md:payloadguid="2ce49444-44bf-4a20-abfe-dc51fa2ca96d" xmlns:mscom="http://schemas.microsoft.com/CMSvNext" xmlns:md="http://schemas.microsoft.com/mscom-data"></mscom:image>
+<mscom:image usedatasource="true" htmlcustomattributes="{'media':'(min-width:1200px)'}" md:payloadguid="09ac53f6-3394-4ac4-a93f-7708f21ffa71" xmlns:mscom="http://schemas.microsoft.com/CMSvNext" xmlns:md="http://schemas.microsoft.com/mscom-data"></mscom:image>
+<mscom:image usedatasource="true" htmlcustomattributes="{'media':'(min-width:1084px)'}" md:payloadguid="85bdb438-074d-4d3e-8347-5ee982a56e75" xmlns:mscom="http://schemas.microsoft.com/CMSvNext" xmlns:md="http://schemas.microsoft.com/mscom-data"></mscom:image>
+<mscom:image usedatasource="true" htmlcustomattributes="{'media':'(min-width:540px)'}" md:payloadguid="56ace1a3-aaec-4849-9222-5fa44268e932" xmlns:mscom="http://schemas.microsoft.com/CMSvNext" xmlns:md="http://schemas.microsoft.com/mscom-data"></mscom:image>
+<mscom:image usedatasource="true" htmlcustomattributes="{'media':'(min-width:0px)'}" md:payloadguid="56ace1a3-aaec-4849-9222-5fa44268e932" xmlns:mscom="http://schemas.microsoft.com/CMSvNext" xmlns:md="http://schemas.microsoft.com/mscom-data"></mscom:image>
+<mscom:image usedatasource="false" alt="Surface Pen, Surface Signature Type Cover and Surface Arc Mouse" md:payloadguid="e2d23104-c0e6-479f-a685-43a532813809" xmlns:mscom="http://schemas.microsoft.com/CMSvNext" xmlns:md="http://schemas.microsoft.com/mscom-data"></mscom:image>
+                        </picture>
+                    </div>
+
+                </a>
+
+                <div class="">
+                    <section class="m-content-placement-item" data-js-href="">
+                        <div>
+                             <strong class="c-badge f-small f-highlight"></strong>
+                            <h2 class="c-heading-2">Extraordinary accessories</h2>
+                            <div class="c-subheading-2">Complete your experience with powerful and productive tools</div>
+
+                           <mscom:link htmlcustomattributes="{'aria-label':'Shop Surface Accessories'}" href="https://www.microsoft.com/en-us/store/b/surfaceaccessories" target="_blank" classoverride="c-call-to-action c-glyph surface-secondary-cta" text="SHOP ACCESSORIES" xmlns:mscom="http://schemas.microsoft.com/CMSvNext"></mscom:link>
+
+
+                        </div>
+                    </section>
+                </div>
+            </li>-->
+                <li class="fullTile slide fullLeftRight fullTile-2 accpanel" data-grid="col-12" data-mosaic="false"
+                    style="opacity: 1; visibility: visible; top: 0px;" data-bi-id="c9c1m5r1a3"
+                    data-bi-name="c9c1m5r1a3">
+                    <div>
+                        <picture class="c-image mobImg">
+                            <source
+                                srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Mosaic_Block4_image1_20_V1_en-us.png.jpg?version=e2784ef4-86d2-3b84-dcc9-2a5e3f0c392c"
+                                media="(min-width:1400px)">
+                            <source
+                                srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Mosaic_Block4_image1_20_V2_en-us.jpg?version=6f842333-2d7b-cc5a-47a0-44c8e7e73c4b"
+                                media="(min-width:1084px)">
+                            <source
+                                srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Mosaic_Block4_image1_20_V3_en-us.png.jpg?version=02a867d0-28c7-8401-efb3-a8f0b79b1635"
+                                media="(min-width:540px)">
+                            <source
+                                srcset="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Mosaic_Block4_image1_20_V4_en-us.jpg?version=511a5b41-58b4-1602-6d2a-d9142caf164e"
+                                media="(min-width:0px)"><img
+                                src="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Mosaic_Block4_image1_20_V1_en-us.png.jpg?version=e2784ef4-86d2-3b84-dcc9-2a5e3f0c392c"
+                                class="mscom-image"
+                                alt="Surface Pen, Surface Signature Type Cover and Surface Arc Mouse" width=""
+                                height=""></picture>
+                        <section id="fullTile" data-grid="col-12 stack-3" data-bi-name="fullTile"
+                            data-bi-id="c1c9c1m5r1a3" data-bi-area="body">
+                            <div class="copy"><strong class="c-badge f-small f-highlight"></strong>
+                                <h2 class="c-heading-2">Extraordinary accessories</h2>
+                                <div class="c-subheading-2">Complete your experience with powerful and productive tools
+                                </div>
+                                <div><a target="_self" class="mscom-link c-call-to-action c-glyph surface-secondary-cta"
+                                        aria-label="Shop Surface accessories"
+                                        href="https://www.microsoft.com/en-us/store/b/surface-accessories"
+                                        data-bi-id="n1c1c9c1m5r1a3" data-bi-name="shop surface accessories"
+                                        data-bi-bhvr="PARTNERREFERRAL" data-bi-type="text" data-bi-prtnm="ms store"
+                                        data-bi-prod="surface accessories"><span>Shop Surface accessories</span></a>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!---->
+    </div>
+
+
+
+
+    <div data-grid="container">
+        <hr class="c-divider"><button id="prefooterDrawer" class="drawer c-glyph" aria-expanded="false"
+            aria-controls="prefooterNav" data-bi-id="n1c1m7r1a3" data-bi-name="links">Links</button>
+
+
+        <nav id="prefooterNav" class="c-link-navigation prefooternavlist-4" role="navigation"
+            aria-label="Additional Resources">
+            <div style="float: left;"><a href="https://support.microsoft.com/products/surface-devices" class="c-hyperlink f-image "
+                        target="_self" data-bi-id="n2c1m7r1a3" data-bi-name="surface support" data-bi-bhvr="COMMUNITY"
+                        data-bi-type="image">
+                        <picture><img
+                                src="https://c.s-microsoft.com/en-us/CMSImages/Prefooter_Icon_Support.svg?version=c25f0966-0819-b2a0-0357-7a6cb50afe0e"
+                                class="mscom-image" alt="Surface Support icon" width="100px" height="100px"></picture>
+                        <span>Surface Support</span>
+                    </a>
+                    </div>
+                
+                    <div style="float: left;">
+                    <a href="http://support.microsoft.com/devices" class="c-hyperlink f-image " target="_self"
+                        data-bi-id="n3c1m7r1a3" data-bi-name="register your surface" data-bi-bhvr="COMMUNITY"
+                        data-bi-type="image">
+                        <picture><img
+                                src="https://c.s-microsoft.com/en-us/CMSImages/Prefooter_Icon_Register.svg?version=0956d5fb-33ca-bdf9-3cab-37dcadb07379"
+                                class="mscom-image" alt="Register your Surface icon"width="100px" height="100px"></picture>
+                        <span>Register your Surface</span>
+                    </a>
+
+                </div>
+
+                <div style="float: left;">
+                    <a href="https://www.microsoft.com/en-us/surface/newsletter-subscription"
+                        class="c-hyperlink f-image surfacenewsletter" target="_self" data-bi-id="n4c1m7r1a3"
+                        data-bi-name="get the surface newsletter" data-bi-type="image" data-bi-bhvr="OTHER">
+                        <picture><img
+                                src="https://c.s-microsoft.com/en-us/CMSImages/newsletter-icon.svg?version=26094b8a-2cfc-fa19-5dfa-4a6913af6eb5"
+                                class="mscom-image" alt="Get the Surface newsletter icon"width="100px" height="100px"></picture>
+                        <span>Get the Surface newsletter</span>
+                    </a>
+                </div>
+
+                <div style="float: left;">
+                    <a href="https://support.microsoft.com/help/4040585" class="c-hyperlink f-image " target="_self"
+                        data-bi-id="n5c1m7r1a3" data-bi-name="power cord recall" data-bi-bhvr="COMMUNITY"
+                        data-bi-type="image">
+                        <picture><img
+                                src="https://c.s-microsoft.com/en-us/CMSImages/Prefooter_Icon_PowerCord.svg?version=3d41ef0f-fcff-4126-0dfc-499e388476b3"
+                                class="mscom-image" alt="Power cord recall icon" width="100px" height="100px"></picture>
+                        <span>Power cord recall</span>
+                    </a>
+                </div>
+        </nav>
+        <hr class="c-divider">
+    </div>
+
+
+
+
+    <nav class="c-uhff-nav" aria-label="Footer Resource links" data-m="{&quot;cN&quot;:&quot;Footer nav_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1m1r1a2&quot;}"><div class="c-uhff-nav-row"><div class="c-uhff-nav-group" data-m="{&quot;cN&quot;:&quot;footerNavColumn1_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}"><div class="c-heading-4">What's new</div><ul class="c-list f-bare"><li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/p/surface-go-2/8pt3s2vjmdr6" data-m="{&quot;cN&quot;:&quot;Footer_WhatsNew_SurfaceGo_nav&quot;,&quot;id&quot;:&quot;n1c1c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1c1c1m1r1a2&quot;}" data-bi-prodid="8PT3S2VJMDR6" data-bi-prod="surface go 2" data-bi-prtnm="ms store" data-bi-type="text" data-bi-bhvr="PARTNERREFERRAL" target="_self">Surface Go 2</a></li><li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/p/surface-book-3/8xbw9g3z71f1" data-m="{&quot;cN&quot;:&quot;Footer_WhatsNew_SurfaceBook3_nav&quot;,&quot;id&quot;:&quot;n2c1c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c1c1c1m1r1a2&quot;}" data-bi-prodid="8XBW9G3Z71F1" data-bi-prod="surface book 3" data-bi-prtnm="ms store" data-bi-type="text" data-bi-bhvr="PARTNERREFERRAL" target="_self">Surface Book 3</a></li><li><a class="c-uhff-link" href="https://www.microsoft.com/microsoft-365" data-m="{&quot;cN&quot;:&quot;Whatsnew_Microsoft365_nav&quot;,&quot;id&quot;:&quot;n3c1c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c1c1c1m1r1a2&quot;}" target="_self">Microsoft 365</a></li><li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/p/surface-pro-x/8vdnrp2m6hhc" data-m="{&quot;cN&quot;:&quot;Whatsnew_SurfaceProX_nav&quot;,&quot;id&quot;:&quot;n4c1c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c1c1c1m1r1a2&quot;}" data-bi-prodid="8vdnrp2m6hhc" data-bi-prod="surface pro x" data-bi-prtnm="ms store" data-bi-type="text" data-bi-bhvr="PARTNERREFERRAL" target="_self">Surface Pro X</a></li><li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/windows/windows-10-apps" data-m="{&quot;cN&quot;:&quot;Footer_WhatsNew_Windows_10_apps_nav&quot;,&quot;id&quot;:&quot;n5c1c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c1c1c1m1r1a2&quot;}" target="_self">Windows 10 apps</a></li></ul></div><div class="c-uhff-nav-group" data-m="{&quot;cN&quot;:&quot;footerNavColumn2_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}"><div class="c-heading-4">Microsoft Store</div><ul class="c-list f-bare"><li><a class="c-uhff-link" href="https://account.microsoft.com/" data-m="{&quot;cN&quot;:&quot;Footer_StoreandSupport_AccountProfile_nav&quot;,&quot;id&quot;:&quot;n1c2c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c1c1m1r1a2&quot;}">Account profile</a></li><li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/download" data-m="{&quot;cN&quot;:&quot;Footer_StoreandSupport_DownloadCenter_nav&quot;,&quot;id&quot;:&quot;n2c2c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c2c1c1m1r1a2&quot;}" target="_self">Download Center</a></li><li><a class="c-uhff-link" href="https://go.microsoft.com/fwlink/p/?linkid=824761&amp;clcid=0x409" data-m="{&quot;cN&quot;:&quot;Footer_StoreandSupport_SalesAndSupport_nav&quot;,&quot;id&quot;:&quot;n3c2c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c2c1c1m1r1a2&quot;}" data-bi-prod="" data-bi-prtnm="ms store" data-bi-type="text" data-bi-bhvr="PARTNERREFERRAL">Microsoft Store support</a></li><li><a class="c-uhff-link" href="https://go.microsoft.com/fwlink/p/?linkid=824764&amp;clcid=0x409" data-m="{&quot;cN&quot;:&quot;MicrosoftStore_ExtendedHolidayReturns_nav&quot;,&quot;id&quot;:&quot;n4c2c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c2c1c1m1r1a2&quot;}" data-bi-prod="" data-bi-prtnm="ms store" data-bi-type="text" data-bi-bhvr="PARTNERREFERRAL">Returns</a></li><li><a class="c-uhff-link" href="https://account.microsoft.com/orders" data-m="{&quot;cN&quot;:&quot;Footer_StoreandSupport_OrderTracking_nav&quot;,&quot;id&quot;:&quot;n5c2c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c2c1c1m1r1a2&quot;}">Order tracking</a></li><li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en-us_uf_fas" data-m="{&quot;cN&quot;:&quot;Footer_StoreandSupport_StoreLocations_nav&quot;,&quot;id&quot;:&quot;n6c2c1c1m1r1a2&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c2c1c1m1r1a2&quot;}" data-bi-prtnm="ms store" data-bi-type="text" data-bi-bhvr="PARTNERREFERRAL" target="_self">Store locations</a></li><li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/store/workshops-training-and-events?icid=bm_uhf_footer_virtual-learning-azure_692020" data-m="{&quot;cN&quot;:&quot;StoreSupport_Instoreevents_nav&quot;,&quot;id&quot;:&quot;n7c2c1c1m1r1a2&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c2c1c1m1r1a2&quot;}" data-bi-prtnm="ms store" data-bi-type="text" data-bi-bhvr="PARTNERREFERRAL" target="_self">Virtual workshops and training</a></li></ul></div><div class="c-uhff-nav-group" data-m="{&quot;cN&quot;:&quot;footerNavColumn3_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}"><div class="c-heading-4">Education</div><ul class="c-list f-bare"><li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/education" data-m="{&quot;cN&quot;:&quot;Footer_Education_MicrosoftInEducation_nav&quot;,&quot;id&quot;:&quot;n1c3c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c1c1m1r1a2&quot;}" target="_self">Microsoft in education</a></li><li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/education/products/office/default.aspx" data-m="{&quot;cN&quot;:&quot;Footer_Education_OfficeForStudents_nav&quot;,&quot;id&quot;:&quot;n2c3c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c3c1c1m1r1a2&quot;}" target="_self">Office for students</a></li><li><a class="c-uhff-link" href="https://products.office.com/en-us/academic/compare-office-365-education-plans" data-m="{&quot;cN&quot;:&quot;Footer_Education_Office365ForSchools_nav&quot;,&quot;id&quot;:&quot;n3c3c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c3c1c1m1r1a2&quot;}">Office 365 for schools</a></li><li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/store/b/education?icid=cnavfooter_studentsandeducation" data-m="{&quot;cN&quot;:&quot;Footer_Education_DealsForStudentsandParents_nav&quot;,&quot;id&quot;:&quot;n4c3c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c3c1c1m1r1a2&quot;}" data-bi-prod="education" data-bi-prtnm="ms store" data-bi-type="text" data-bi-bhvr="PARTNERREFERRAL" target="_self">Deals for students &amp; parents</a></li><li><a class="c-uhff-link" href="https://azure.microsoft.com/en-us/community/education/" data-m="{&quot;cN&quot;:&quot;Footer_MicrosoftAzureInEducation_nav&quot;,&quot;id&quot;:&quot;n5c3c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c3c1c1m1r1a2&quot;}">Microsoft Azure in education</a></li></ul></div></div><div class="c-uhff-nav-row"><div class="c-uhff-nav-group" data-m="{&quot;cN&quot;:&quot;footerNavColumn4_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}"><div class="c-heading-4">Enterprise</div><ul class="c-list f-bare"><li><a class="c-uhff-link" href="https://azure.microsoft.com/" data-m="{&quot;cN&quot;:&quot;Footer_Enterprise_MicrosoftAzure_nav&quot;,&quot;id&quot;:&quot;n1c4c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">Azure</a></li><li><a class="c-uhff-link" href="https://go.microsoft.com/fwlink/?linkid=808093" data-m="{&quot;cN&quot;:&quot;Footer_Enterprise_MicrosoftAppSource_nav&quot;,&quot;id&quot;:&quot;n2c4c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">AppSource </a></li><li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/enterprise/automotive" data-m="{&quot;cN&quot;:&quot;Footer_Enterprise_Automotive_nav&quot;,&quot;id&quot;:&quot;n3c4c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}" target="_self">Automotive</a></li><li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/enterprise/government" data-m="{&quot;cN&quot;:&quot;Footer_Enterprise_Government_nav&quot;,&quot;id&quot;:&quot;n4c4c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}" target="_self">Government</a></li><li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/enterprise/health" data-m="{&quot;cN&quot;:&quot;Footer_Enterprise_Health_nav&quot;,&quot;id&quot;:&quot;n5c4c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}" target="_self">Healthcare</a></li><li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/enterprise/manufacturing" data-m="{&quot;cN&quot;:&quot;Footer_Enterprise_Manufacturing_nav&quot;,&quot;id&quot;:&quot;n6c4c1c1m1r1a2&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}" target="_self">Manufacturing</a></li><li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/enterprise/financial-services/banking-and-capital-markets" data-m="{&quot;cN&quot;:&quot;Footer_Enterprise_FinanciaServices_nav&quot;,&quot;id&quot;:&quot;n7c4c1c1m1r1a2&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}" target="_self">Financial services</a></li><li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/enterprise/retail-consumer-goods" data-m="{&quot;cN&quot;:&quot;Footer_Enterprise_Retail_nav&quot;,&quot;id&quot;:&quot;n8c4c1c1m1r1a2&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}" target="_self">Retail</a></li></ul></div><div class="c-uhff-nav-group" data-m="{&quot;cN&quot;:&quot;footerNavColumn5_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}"><div class="c-heading-4">Developer</div><ul class="c-list f-bare"><li><a class="c-uhff-link" href="https://visualstudio.microsoft.com/" data-m="{&quot;cN&quot;:&quot;Footer_Developer_MicrosoftVisualStudio_nav&quot;,&quot;id&quot;:&quot;n1c5c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">Microsoft Visual Studio</a></li><li><a class="c-uhff-link" href="https://developer.microsoft.com/en-us/windows" data-m="{&quot;cN&quot;:&quot;Footer_Developer_WindowsDevCenter_nav&quot;,&quot;id&quot;:&quot;n2c5c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">Windows Dev Center</a></li><li><a class="c-uhff-link" href="https://msdn.microsoft.com/en-us" data-m="{&quot;cN&quot;:&quot;Footer_Developer_MicrosoftDeveloperNetwork_nav&quot;,&quot;id&quot;:&quot;n3c5c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">Developer Network</a></li><li><a class="c-uhff-link" href="https://technet.microsoft.com/en-us" data-m="{&quot;cN&quot;:&quot;Footer_Developer_TechNet_nav&quot;,&quot;id&quot;:&quot;n4c5c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">TechNet</a></li><li><a class="c-uhff-link" href="https://developer.microsoft.com/en-us/store/register" data-m="{&quot;cN&quot;:&quot;Footer_Developer_MicrosoftDeveloperProgram_nav&quot;,&quot;id&quot;:&quot;n5c5c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}" data-bi-prtnm="ms store" data-bi-type="text" data-bi-bhvr="PARTNERREFERRAL">Microsoft developer program</a></li><li><a class="c-uhff-link" href="https://channel9.msdn.com/" data-m="{&quot;cN&quot;:&quot;Footer_Developer_Channel9_nav&quot;,&quot;id&quot;:&quot;n6c5c1c1m1r1a2&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">Channel 9</a></li><li><a class="c-uhff-link" href="https://developer.microsoft.com/en-us/office" data-m="{&quot;cN&quot;:&quot;Footer_Developer_OfficeDevCenter_nav&quot;,&quot;id&quot;:&quot;n7c5c1c1m1r1a2&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">Office Dev Center</a></li><li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/garage/" data-m="{&quot;cN&quot;:&quot;Microsoft Garage_nav&quot;,&quot;id&quot;:&quot;n8c5c1c1m1r1a2&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}" target="_self">Microsoft Garage</a></li></ul></div><div class="c-uhff-nav-group" data-m="{&quot;cN&quot;:&quot;footerNavColumn6_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c1c1m1r1a2&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}"><div class="c-heading-4">Company</div><ul class="c-list f-bare"><li><a class="c-uhff-link" href="https://careers.microsoft.com/" data-m="{&quot;cN&quot;:&quot;Footer_Company_Careers_nav&quot;,&quot;id&quot;:&quot;n1c6c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}">Careers</a></li><li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/about" data-m="{&quot;cN&quot;:&quot;Footer_Company_AboutMicrosoft_nav&quot;,&quot;id&quot;:&quot;n2c6c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}" target="_self">About Microsoft</a></li><li><a class="c-uhff-link" href="https://news.microsoft.com/" data-m="{&quot;cN&quot;:&quot;Footer_Company_CompanyNews_nav&quot;,&quot;id&quot;:&quot;n3c6c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}">Company news</a></li><li><a class="c-uhff-link" href="https://privacy.microsoft.com/en-us" data-m="{&quot;cN&quot;:&quot;Footer_Company_PrivacyAtMicrosoft_nav&quot;,&quot;id&quot;:&quot;n4c6c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}">Privacy at Microsoft</a></li><li><a class="c-uhff-link" href="https://www.microsoft.com/investor/default.aspx" data-m="{&quot;cN&quot;:&quot;Footer_Company_Investors_nav&quot;,&quot;id&quot;:&quot;n5c6c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}" target="_self">Investors</a></li><li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/diversity/" data-m="{&quot;cN&quot;:&quot;Footer_Company_DiversityAndInclusion_nav&quot;,&quot;id&quot;:&quot;n6c6c1c1m1r1a2&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}" target="_self">Diversity and inclusion</a></li><li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/accessibility" data-m="{&quot;cN&quot;:&quot;Footer_Company_Accessibility_nav&quot;,&quot;id&quot;:&quot;n7c6c1c1m1r1a2&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}" target="_self">Accessibility</a></li><li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/security/default.aspx" data-m="{&quot;cN&quot;:&quot;Footer_Company_Security_nav&quot;,&quot;id&quot;:&quot;n8c6c1c1m1r1a2&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}" target="_self">Security</a></li></ul></div></div></nav>
+</body>
+
+</html>

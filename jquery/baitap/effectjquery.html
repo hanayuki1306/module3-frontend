@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <title>Document</title>
+</head>
+<script>
+    $( function() {
+      $( "#draggable" ).draggable();
+    } );
+    </script>
+
+
+<script>
+    $( function() {
+      $( "#draggable1" ).draggable();
+      $( "#droppable1" ).droppable({
+        drop: function( event, ui ) {
+          $( this )
+            .addClass( "ui-state-highlight" )
+            .find( "p" )
+              .html( "Dropped!" );
+        }
+      });
+    } );
+    </script>
+
+<style>
+    #draggable { width: 150px; height: 150px; padding: 0.5em; background: aqua;}
+    </style>
+<style>
+    #draggable1 { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; background: aquamarine; }
+    #droppable1 { width: 200px; height: 200px; padding: 0.5em; float: left; margin: 10px; background: red; }
+</style>
+
+<body>
+
+    <header>
+        <h1> This is header</h1>
+    </header>
+    <main>
+          <h3>Draggable</h3>
+          <div id="draggable" class="ui-widget-content">
+            <p>Drag me around</p>
+          </div>
+
+          <br>
+          <h3>Droppable</h3>
+          <div id="draggable1" class="ui-widget-content">
+            <p>Drag me to my target</p>
+          </div>
+           
+          <div id="droppable1" class="ui-widget-header">
+            <p>Drop here</p>
+          </div>
+    </main>
+
+</body>
+</html>
