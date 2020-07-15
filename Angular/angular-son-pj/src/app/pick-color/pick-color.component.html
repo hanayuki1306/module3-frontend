@@ -1,0 +1,27 @@
+<!-- <p>pick-color works!</p>
+<div>
+
+    <label for="color"> Select color: </label>
+
+    <select id="color"
+            [(ngModel)]= "color" (change)="changeColor($event.target.value)">
+      <option value="Green">Green</option>
+      <option value="Red">Red</option>
+      <option value="Blue">Blue</option>
+      <option value="Black">Black</option>
+    </select>
+</div>
+<div>
+</div>
+
+<div class="output">
+    {{color}}
+  </div> -->
+  <h2>Color Picker</h2>
+<div>
+  <label>Chọn màu:</label>
+  <input [value]="background" type="color" (change)="onChange($event.target.value)">
+</div>
+
+<p>Output:</p>
+<div class="color-preview" [style.background]="background"></div>
