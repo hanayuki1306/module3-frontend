@@ -8,6 +8,9 @@ import { CalculatorComponent } from './caculator/caculator.component';
 
 import { ColorPickerComponent } from './pick-color/pick-color.component';
 import { NameCardComponent } from './name-card/name-card.component';
+import { TodoComponent } from './todo/todo.component';
+import { ReactiveFormsModule, FormsModule} from '@angular/forms'
+import { from } from 'rxjs';
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,10 +18,13 @@ import { NameCardComponent } from './name-card/name-card.component';
     PetComponent,
     CalculatorComponent,
     ColorPickerComponent,
-    NameCardComponent
+    NameCardComponent,
+    TodoComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule, 
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
