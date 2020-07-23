@@ -1,0 +1,51 @@
+<p>customer-list here!</p>
+<div class="row justify-content-between">
+    <h2 class="text-capitalize d-flex" style="padding-top: 5px;"> List Customer Page</h2>
+      <div class="d-flex ">
+        <label for="search" class="sr-only">Search</label>
+          <input type="text" class="form-control" id="search" placeholder="Input anything" [(ngModel)]="bientam" >
+          <button type="submit" class="btn btn-success mb-4 mr-2">Search</button>
+      </div>
+  </div>
+  
+  
+  <div class="container">
+  
+  <div class="row">
+    <button class="btn btn-success mb-1"[routerLink]="['/customer-create']">Create new</button>
+  
+      <table class="table" style="font-size: 12px;">
+        <thead>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Birth Day</th>
+            <th>Gender</th>
+            <th>Phone Number</th>
+            <th>Email</th>
+            <th>Adress</th>
+            <th> Type Customer</th>
+            <th> Action </th>
+        </thead>
+  
+          <tbody>
+            <tr *ngFor="let cus of customers |filter:bientam |paginate: { itemsPerPage: 4, currentPage: p }">
+                <td>{{cus.id}}</td>
+                <td>{{cus.name}}</td>
+                <td>{{cus.birthday}}</td>
+                <td>{{cus.gender}}</td>
+                <td>{{cus.phoneNumber}}</td>
+                <td>{{cus.email}}</td>
+                <td>{{cus.address}}</td>
+                <td>{{cus.typeCustomer}}</td>
+                
+                <td>
+                  <button class="btn btn-sm btn-warning m-1"> Edit</button>
+                  <button class="btn btn-sm btn-warning m-1"> Delete</button>
+                </td>
+              </tr>
+          </tbody>
+      </table>
+      <pagination-controls (pageChange)="p = $event"></pagination-controls>
+    </div>
+  </div>
+

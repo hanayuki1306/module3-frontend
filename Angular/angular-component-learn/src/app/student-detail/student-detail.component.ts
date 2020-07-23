@@ -23,4 +23,5 @@ export class StudentDetailComponent implements OnInit {
     this.mark = value;
     this.changeMark.emit(this.mark);
   }
+
 }

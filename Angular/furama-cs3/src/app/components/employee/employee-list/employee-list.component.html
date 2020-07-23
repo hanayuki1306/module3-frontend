@@ -1,0 +1,68 @@
+
+
+
+<!-- <form class="form-inline">
+  <h2 class="text-capitalize d-flex" style="padding-top: 5px;"> List Employee</h2>
+  
+  <div class="form-group mx-sm-3 mb-2 d-flex" style="padding-left:600px;">
+    <label for="search" class="sr-only">Search</label>
+    <input type="text" class="form-control" id="search" placeholder="Input anything">
+  </div>
+
+  <button type="submit" class="btn btn-primary mb-2">Search</button>
+</form> -->
+
+<div class="row justify-content-between">
+  <h2 class="text-capitalize d-flex" style="padding-top: 5px;"> List Employee</h2>
+    <div class="d-flex ">
+      <label for="search" class="sr-only">Search</label>
+        <input type="text" class="form-control" id="search" placeholder="Input anything" [(ngModel)]="bientam">
+        <button type="submit" class="btn btn-success mb-4 mr-2">Search</button>
+    </div>
+</div>
+
+
+<div class="container">
+
+<div class="row">
+  <button class="btn btn-success mb-1"[routerLink]="['/employee-create']">Create new</button>
+
+    <table class="table" style="font-size: 12px;">
+      <thead>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Birth Day</th>
+          <th>Gender</th>
+          <th>Phone Number</th>
+          <th>Email</th>
+          <th>Adress</th>
+          <th>Salary</th>
+          <th>Id Position</th>
+          <th>Id Department</th>
+          <th>Id Scope </th>
+          <th> Action </th>
+      </thead>
+
+        <tbody>
+          <tr *ngFor= "let em of employees |filter:bientam  |paginate: { itemsPerPage: 4, currentPage: p }"  >7
+              <td>{{em.id}}</td>
+              <td>{{em.name}}</td>
+              <td>{{em.birthday}}</td>
+              <td>{{em.gender}}</td>
+              <td>{{em.phoneNumber}}</td>
+              <td>{{em.email}}</td>7777
+              <td>{{em.address}}</td>
+              <td>{{em.salary}}</td>
+              <td>{{em.idPosition}}</td>
+              <td>{{em.idDepartment}}</td>
+              <td>{{em.idScope}}</td>
+              <td>
+                <button class="btn btn-sm btn-warning m-1" [routerLink]= "['/edit-employee/'+em.id]"> Edit</button>
+                <button class="btn btn-sm btn-warning m-1" (click)="openDialog(em.id)" > Delete</button>
+              </td>
+            </tr>
+        </tbody>
+    </table>
+    <pagination-controls (pageChange)="p = $event"></pagination-controls>
+  </div>
+</div>

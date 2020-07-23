@@ -13,8 +13,9 @@ interface IRatingUnit {
 export class RatingBarComponent implements OnInit, OnChanges {
   @Input()
   max = 5;
+
   @Input()
-  ratingValue = 5;
+  ratingValue = 0;
   @Input()
   showRatingValue = true;
 
