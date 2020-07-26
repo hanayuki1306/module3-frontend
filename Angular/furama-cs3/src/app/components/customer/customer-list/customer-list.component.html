@@ -1,9 +1,8 @@
-<p>customer-list here!</p>
 <div class="row justify-content-between">
     <h2 class="text-capitalize d-flex" style="padding-top: 5px;"> List Customer Page</h2>
       <div class="d-flex ">
         <label for="search" class="sr-only">Search</label>
-          <input type="text" class="form-control" id="search" placeholder="Input anything" [(ngModel)]="bientam" >
+          <input type="text" class="form-control" id="search" placeholder="Input anything" [(ngModel)]="term" >
           <button type="submit" class="btn btn-success mb-4 mr-2">Search</button>
       </div>
   </div>
@@ -28,7 +27,7 @@
         </thead>
   
           <tbody>
-            <tr *ngFor="let cus of customers |filter:bientam |paginate: { itemsPerPage: 4, currentPage: p }">
+            <tr *ngFor="let cus of customers |filter:term |paginate: { itemsPerPage: 4, currentPage: p }">
                 <td>{{cus.id}}</td>
                 <td>{{cus.name}}</td>
                 <td>{{cus.birthday}}</td>

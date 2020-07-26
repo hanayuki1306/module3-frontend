@@ -6,7 +6,7 @@ import { MatDatepickerModule,
         MatInputModule } from '@angular/material';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { EmployeeDeleteComponent } from './components/employee/employee-delete/employee-delete.component';
-
+import { DeleteServiceComponent} from "./components/service-furama/delete-service/delete-service.component"
 @NgModule({
   imports: [
     MatDatepickerModule,
@@ -23,7 +23,10 @@ import { EmployeeDeleteComponent } from './components/employee/employee-delete/e
     BrowserAnimationsModule
   ],
   providers: [ MatDatepickerModule ],
-  entryComponents: [EmployeeDeleteComponent]
+  entryComponents: [
+    EmployeeDeleteComponent,
+    DeleteServiceComponent
+  ]
 })
 
 export class MaterialModule {}

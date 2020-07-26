@@ -1,0 +1,10 @@
+<p>delete-service works!</p>
+<h3> Confirm delete employee</h3>
+
+<hr>
+<p> Do you want to delete  <span class="text-danger">{{nameService}}</span>  out of list? <br> This Operation cant be Undo !!!</p>
+
+<div class="row d-flex justify-content-end">
+    <button class="btn btn-danger mr-2"  (click)="delServices()" >Delete</button>
+    <button  mat-dialog-close  class="btn btn-warning mr-3" (click)="closeDialog()">Cancel</button>
+</div>

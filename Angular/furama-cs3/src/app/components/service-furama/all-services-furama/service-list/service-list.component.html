@@ -1,0 +1,43 @@
+<div class="container-fluid">
+    <h2 class="text-info d-flex"> All services in my Resort</h2>
+    <div class="d-flex ">
+        <label for="search" class="sr-only">Search</label>
+          <input type="text" class="form-control" id="search" placeholder="Search" [(ngModel)]="term">
+          <!-- <button type="submit" class="btn btn-success mb-4 mr-2 ml-2">Search</button> -->
+      </div>
+    <div>
+        <button class="btn btn-success" [routerLink]="['/service-create']">Create-service</button>
+    </div>
+    <div>
+        <table class="table border-1">
+            <thead>
+                    <th class="text-center"> Name </th>
+                    <th class="text-center"> Description</th>
+                    <th class="text-center"> Price</th>
+                    <th class="text-center"> View</th>
+                    <th class="text-center"> Action</th>
+            </thead>
+            <tbody>
+                <tr *ngFor="let se of serviesListData |filter:term | paginate: { itemsPerPage: 5, currentPage: p }">
+                    <td class="text-center">{{se.name}}</td>
+                    <td class="text-center">{{se.description}}</td>
+                    <td class="text-center">{{se.price}}</td>
+                    <td>
+                        <div class="w-100 d-flex justify-content-center">
+                            <img src="{{se.links}}" style="width: 200px;" >
+                        </div>
+                    </td>
+                    <td>
+                        <button class="btn btn-sm btn-warning m-1 d-flex justify-content-center" [routerLink]= "['/edit-services/'+se.id]"> Edit</button>
+                        <button class="btn btn-sm btn-outline-warning m-1" (click)="openDialog(se.id)"  > Delete</button>
+                      </td>
+                    
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+ <pagination-controls (pageChange)="p = $event"></pagination-controls>
+
+
+</div>

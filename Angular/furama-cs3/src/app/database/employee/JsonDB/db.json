@@ -313,7 +313,111 @@
       "id": 6
     }
   ],
-  "services": {
-    "name": "typicode"
-  }
+  "services-furama": [
+    {
+      "id": 1,
+      "name": "Villa1",
+      "description": "A beautiful Villa ",
+      "price": 30000,
+      "links": "https://q-xx.bstatic.com/xdata/images/hotel/840x460/171170838.jpg?k=61e429dc79a6ca574886d85e577d413adea5d4c9e6cf76dff15b9b7c1c60fcc7&o="
+    },
+    {
+      "id": 2,
+      "name": "Villa2",
+      "description": "A beautiful Villa ",
+      "price": 30000,
+      "links": "https://q-xx.bstatic.com/xdata/images/hotel/840x460/171170838.jpg?k=61e429dc79a6ca574886d85e577d413adea5d4c9e6cf76dff15b9b7c1c60fcc7&o="
+    },
+    {
+      "id": 3,
+      "name": "Villa3",
+      "description": "A beautiful Villa ",
+      "price": 30000,
+      "links": "https://q-xx.bstatic.com/xdata/images/hotel/840x460/171170838.jpg?k=61e429dc79a6ca574886d85e577d413adea5d4c9e6cf76dff15b9b7c1c60fcc7&o="
+    },
+    {
+      "id": 4,
+      "name": "Villa4",
+      "description": "A beautiful Villa ",
+      "price": 30000,
+      "links": "https://q-xx.bstatic.com/xdata/images/hotel/840x460/171170838.jpg?k=61e429dc79a6ca574886d85e577d413adea5d4c9e6cf76dff15b9b7c1c60fcc7&o="
+    },
+    {
+      "id": 5,
+      "name": "Villa5",
+      "description": "A beautiful Villa ",
+      "price": 30000,
+      "links": "https://q-xx.bstatic.com/xdata/images/hotel/840x460/171170838.jpg?k=61e429dc79a6ca574886d85e577d413adea5d4c9e6cf76dff15b9b7c1c60fcc7&o="
+    },
+    {
+      "id": 6,
+      "name": "House1",
+      "description": "A beautiful House ",
+      "price": 1500,
+      "links": "https://r-cf.bstatic.com/images/hotel/max1024x768/187/187020889.jpg"
+    },
+    {
+      "id": 7,
+      "name": "House2",
+      "description": "A beautiful House ",
+      "price": 1500,
+      "links": "https://r-cf.bstatic.com/images/hotel/max1024x768/187/187020889.jpg"
+    },
+    {
+      "id": 8,
+      "name": "House3",
+      "description": "A beautiful House ",
+      "price": 1500,
+      "links": "https://r-cf.bstatic.com/images/hotel/max1024x768/187/187020889.jpg"
+    },
+    {
+      "id": 9,
+      "name": "House4",
+      "description": "A beautiful House ",
+      "price": 1500,
+      "links": "https://r-cf.bstatic.com/images/hotel/max1024x768/187/187020889.jpg"
+    },
+    {
+      "id": 10,
+      "name": "House 5",
+      "description": "A beautiful House ",
+      "price": 1500,
+      "links": "https://r-cf.bstatic.com/images/hotel/max1024x768/187/187020889.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Room1",
+      "description": "A beautiful Room ",
+      "price": 1000,
+      "links": "https://sangnghiep.vn/wp-content/uploads/2020/02/f957170f232a2a914096cc36e06fafce.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Room2",
+      "description": "A beautiful Room ",
+      "price": 1000,
+      "links": "https://sangnghiep.vn/wp-content/uploads/2020/02/f957170f232a2a914096cc36e06fafce.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Room3",
+      "description": "A beautiful Room ",
+      "price": 1000,
+      "links": "https://sangnghiep.vn/wp-content/uploads/2020/02/f957170f232a2a914096cc36e06fafce.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Room4",
+      "description": "A beautiful Room ",
+      "price": 1000,
+      "links": "https://sangnghiep.vn/wp-content/uploads/2020/02/f957170f232a2a914096cc36e06fafce.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Room5",
+      "description": "A beautiful Room ",
+      "price": 1000,
+      "links": "https://sangnghiep.vn/wp-content/uploads/2020/02/f957170f232a2a914096cc36e06fafce.jpg"
+    }
+  ]
 }

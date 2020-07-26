@@ -44,7 +44,7 @@
       </thead>
 
         <tbody>
-          <tr *ngFor= "let em of employees |filter:bientam  |paginate: { itemsPerPage: 4, currentPage: p }"  >7
+          <tr *ngFor= "let em of employees |filter:bientam  |paginate: { itemsPerPage: 4, currentPage: p }">
               <td>{{em.id}}</td>
               <td>{{em.name}}</td>
               <td>{{em.birthday}}</td>
